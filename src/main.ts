@@ -13,3 +13,6 @@ const aboutMe = {
 console.log(
   `Hello! My name is ${fullName} and I drink ${numberOfCupsOfCoffee} cups of coffee per day. My favorite number is ${aboutMe.luckyNumber}!`
 )
+
+const userName = window.prompt("What is your name? ")
+
