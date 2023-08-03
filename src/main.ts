@@ -1,6 +1,6 @@
 import './style.css'
 
-let numberOfCupCoffee = 0
+let numberOfCupsCoffee = 0
 
 let fullName = 'Kelly Musshafen'
 
@@ -9,3 +9,6 @@ const aboutMe = {
   luckyNumber: 12,
   favoriteMovies: ['Aladdin, The Dark Knight, The Life of David Gale'],
 }
+
+console.log(
+  `Hey, hey, hey! My name is ${fullName} and I drink ${numberOfCupsCoffee} cups of coffer per day. My favorite number is ${aboutMe.luckyNumber}!')
