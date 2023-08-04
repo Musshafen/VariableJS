@@ -60,3 +60,9 @@ const arrayMath = {
   sum: 0,
   average: 0,
 }
+
+for (let count = 1; count < numbers.length; count++) {
+  if (arrayMath.smallest > numbers[count]) {
+    arrayMath.smallest = numbers[count]
+  }
+}
