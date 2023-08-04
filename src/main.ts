@@ -79,3 +79,8 @@ for( let count = 0; count < numbers.length; count++ ) {
 }
 
 arrayMath.average = arrayMath.sum / numbers.length
+
+console.log(`Heres some interesting information, the smallest number in the array is ${arrayMath.smallest}`)
+console.log(`The largest number in the array is ${arrayMath.largest}`)
+console.log(`The sum of the array is ${arrayMath.sum}`)
+console.log(`and the average of the array is ${arrayMath.average}`)
