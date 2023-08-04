@@ -30,3 +30,8 @@ const secondOperand = Number(
   window.prompt('Thank you! please pick another number')
 )
 console.log(`You chose ${secondOperand}.`)
+
+let sum = firstOperand + secondOperand
+let difference = firstOperand - secondOperand
+let product = firstOperand * secondOperand
+let quotient = firstOperand / secondOperand
