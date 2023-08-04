@@ -35,3 +35,16 @@ let sum = firstOperand + secondOperand
 let difference = firstOperand - secondOperand
 let product = firstOperand * secondOperand
 let quotient = firstOperand / secondOperand
+
+console.log(
+  `Check this out! If you add ${firstOperand} with ${secondOperand}, you will get ${sum}, Cowabunga, dude?`
+)
+console.log(
+  `If you subtract ${firstOperand} from ${secondOperand}, you will get ${difference}`
+)
+console.log(
+  `To be continued! If you multiply ${firstOperand} with ${secondOperand}, you will get ${product}!`
+)
+console.log(
+  `And last but definitely not least, if you divide ${firstOperand} from ${secondOperand}, you will get ${quotient}.`
+)
