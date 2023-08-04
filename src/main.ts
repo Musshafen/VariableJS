@@ -77,3 +77,5 @@ for( let count = 0; count < numbers.length; count++ ) {
 for( let count = 0; count < numbers.length; count++ ) {
   arrayMath.sum += numbers[count]
 }
+
+arrayMath.average = arrayMath.sum / numbers.length
