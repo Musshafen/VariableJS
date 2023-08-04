@@ -25,11 +25,11 @@ if (userName === null || userName === '') {
 const firstOperand = Number(
   window.prompt("Let's do some math! Please pick a number.")
 )
-console.log(`You chose ${firstOperand}.`)
+console.log(`Your first number ${firstOperand}.`)
 const secondOperand = Number(
   window.prompt('Thank you! please pick another number')
 )
-console.log(`You chose ${secondOperand}.`)
+console.log(`Your second number ${secondOperand}.`)
 
 let sum = firstOperand + secondOperand
 let difference = firstOperand - secondOperand
