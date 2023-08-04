@@ -73,3 +73,7 @@ for( let count = 0; count < numbers.length; count++ ) {
       arrayMath.largest = numbers[count]
   }
 }
+
+for( let count = 0; count < numbers.length; count++ ) {
+  arrayMath.sum += numbers[count]
+}
