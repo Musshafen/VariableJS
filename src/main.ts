@@ -14,5 +14,10 @@ console.log(
   `Hello! My name is ${fullName} and I drink ${numberOfCupsOfCoffee} cups of coffee per day. My favorite number is ${aboutMe.luckyNumber}!`
 )
 
-const userName = window.prompt("What is your name? ")
+const userName = window.prompt('What is your name? ')
 
+if (userName === null || userName === '') {
+  console.log('Ah ah ah, seems like you do not want to share!')
+} else {
+  console.log(`Hello ${userName}! It is nice to meet you!`)
+}
