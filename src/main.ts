@@ -21,3 +21,12 @@ if (userName === null || userName === '') {
 } else {
   console.log(`Hello ${userName}! It is nice to meet you!`)
 }
+
+const firstOperand = Number(
+  window.prompt("Let's do some math! Please pick a number.")
+)
+console.log(`You chose ${firstOperand}.`)
+const secondOperand = Number(
+  window.prompt('Thank you! please pick another number')
+)
+console.log(`You chose ${secondOperand}.`)
