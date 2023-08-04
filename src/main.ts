@@ -49,4 +49,14 @@ console.log(
   `And last but definitely not least, if you divide ${firstOperand} from ${secondOperand}, you will get ${quotient}.`
 )
 
-const numbers = [13778, 14852, 38600, 16605, 13509, 29827, 26232, 23050, 19815, 22501, 28872, 39867, 43527, 11963, 31970]
+const numbers = [
+  13778, 14852, 38600, 16605, 13509, 29827, 26232, 23050, 19815, 22501, 28872,
+  39867, 43527, 11963, 31970,
+]
+
+const arrayMath = {
+  smallest: numbers[0],
+  largest: numbers[0],
+  sum: 0,
+  average: 0,
+}
