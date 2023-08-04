@@ -66,3 +66,10 @@ for (let count = 1; count < numbers.length; count++) {
     arrayMath.smallest = numbers[count]
   }
 }
+
+for( let count = 0; count < numbers.length; count++ ) {
+  if( arrayMath.largest < numbers[count] )
+  {
+      arrayMath.largest = numbers[count]
+  }
+}
